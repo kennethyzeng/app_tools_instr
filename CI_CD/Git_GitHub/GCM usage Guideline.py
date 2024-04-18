@@ -23,3 +23,9 @@ Note: It will provide a code, ask you to click below link to enter the code for 
 
 #2 Method 2: haven't verify yet
 https://mac.install.guide/git/credential-manager
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
