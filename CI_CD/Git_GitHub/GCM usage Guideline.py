@@ -29,3 +29,5 @@ https://mac.install.guide/git/credential-manager
 After doing this, you may fix the identity used for this commit with:
 
     git commit --amend --reset-author
+
+    /Users/smci/Dropbox/Mac (2)/Documents/GitHub/app_tools_instr
