@@ -1,3 +1,6 @@
+Intall: GCM 
+Then below:
+
 https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/usage.md
 
 #only need to interact with any authentication dialogs asking for credentials
@@ -17,7 +20,7 @@ get          [Git] Return a stored credential
 
 #1 Method 1: connect to github 
 git credential-manager github 
-git git credential-manager github login
+git credential-manager github login
 Note: It will provide a code, ask you to click below link to enter the code for log in 
 #after that, you can use your git as normal such as git push
 
@@ -25,6 +28,7 @@ Note: It will provide a code, ask you to click below link to enter the code for 
 https://mac.install.guide/git/credential-manager
     git config --global user.name "Your Name"
     git config --global user.email you@example.com
+  $ git config --global credential.helper osxkeychain
 
 After doing this, you may fix the identity used for this commit with:
 
