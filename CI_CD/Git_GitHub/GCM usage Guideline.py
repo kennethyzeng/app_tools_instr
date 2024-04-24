@@ -1,4 +1,5 @@
 Intall: GCM 
+https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md
 Then below:
 
 https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/usage.md
