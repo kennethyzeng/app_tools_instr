@@ -1,1 +1,14 @@
+#install brew 
+Check if brew exist at Macbook 
+brew 
 
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+next step: 
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> /Users/SMCI/.bash_profile
+    eval "$(/usr/local/bin/brew shellenv)"
+- Run brew help to get started
+
+#use this as refrence 
+https://mac.install.guide/homebrew/3
