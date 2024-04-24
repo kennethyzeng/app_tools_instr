@@ -20,8 +20,8 @@ get          [Git] Return a stored credential
 '''
 
 #1 Method 1: connect to github 
-git credential-manager github 
-git credential-manager github login
+git-credential-manager github 
+git-credential-manager github login
 Note: It will provide a code, ask you to click below link to enter the code for log in 
 #after that, you can use your git as normal such as git push
 
