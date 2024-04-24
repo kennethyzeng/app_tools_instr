@@ -1,1 +1,27 @@
+Visual Studio Studio 
 
+#1 For CPP
+@extention 
+Code Runner
+C/C++ intellsense, debugging, code browser
+
+installing the Clang compiler for macbook
+xcode-select --install
+clang --version
+
+Setting -> type"run code" -> check below items
+code runner: enable app insights
+code runner: run in terminal
+code runner: save file before run
+
+https://stackoverflow.com/questions/27924050/expected-at-end-of-declaration-vector-c
+Solution: add -std=c++14 
+"cpp": "cd $dir && g++ -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+Under "Code-runner: Executor Map" -> click on "Edit in setting.json"
+in "code-runner.executorMap"
+
+
+#2 for Python3
+
+
+#2 For Python
