@@ -1,0 +1,9 @@
+#1 If the remote have updated files, where the local machine doesn't have. and user want to do "git push"
+It didn't allow user to git push. the user need to do "git pull" to sync first, then git push
+
+#2 if the same file are modified differntly at remove server and local system. 
+and the user want to do "git push", it won't allow. 
+The user need to do "git pull" first, the "git push"
+The same file will display both version
+    -current version of local system 
+    -version of remote system at the file
