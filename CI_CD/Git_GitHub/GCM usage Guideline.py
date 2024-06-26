@@ -1,3 +1,7 @@
+NOte: 
+read this link for CLI, GCM, and SSH connection 
+https://mac.install.guide/git/credential-manager
+
 Intall: GCM 
 https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md
 Then below:
