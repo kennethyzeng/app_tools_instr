@@ -5,7 +5,14 @@ https://mac.install.guide/git/credential-manager
 Intall: GCM 
 https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md
   -use brew to install GCM(see instruction of brew installation)
+    to check 
+    cd ~
+    vim .bash_profile
   -may need to install java jdk(java --vesion)...file is under user-file
+  -command after brew installation 
+    brew update
+    brew install git-credential-manager
+    git-credential-manager install
 
 Then below:
 
@@ -32,8 +39,9 @@ git-credential-manager github login
 Note: It will provide a code, ask you to click below link to enter the code for log in 
 #after that, you can use your git as normal such as git push
 
-#2 Method 2: haven't verify yet
+#2 Method 2: haven't verify yet   (this one should be above #1 because need to make global setting)
 https://mac.install.guide/git/credential-manager
+Note: $ git config -l --global   #to check current setting
     git config --global user.name "Your Name"
     git config --global user.email you@example.com
   $ git config --global credential.helper osxkeychain
