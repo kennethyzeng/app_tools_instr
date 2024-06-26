@@ -4,6 +4,9 @@ https://mac.install.guide/git/credential-manager
 
 Intall: GCM 
 https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux/blob/master/Install.md
+  -use brew to install GCM(see instruction of brew installation)
+  -may need to install java jdk(java --vesion)...file is under user-file
+
 Then below:
 
 https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/usage.md
