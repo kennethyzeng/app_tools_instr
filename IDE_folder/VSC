@@ -12,6 +12,12 @@ Step 3: installing the Clang compiler for macbook (default should be installed a
 xcode-select --install
 clang --version
 
+option for other compliers: gcc, clang, and Apple's LLVM
+gcc:
+brew install gcc
+clang
+brew install llvm
+
 STep 2: Setting -> type"run code" ->click "run code configuation" at left-side bar-> then check below items
 code runner: enable app insights
 code runner: run in terminal
