@@ -1,24 +1,30 @@
 Visual Studio Studio 
 
 #1 For CPP
-@extention 
-Code Runner
-C/C++ intellsense, debugging, code browser
+Step 1: Go to @extention 
+install Code Runner
+  #for C, C++, Java,python, need to install "code runner"   
+    -search "code runner" and click the one with .run and install
+install C/C++ intellsense, debugging, code browser
 
-installing the Clang compiler for macbook
+Step 3: installing the Clang compiler for macbook (default should be installed already)
+@terminal 
 xcode-select --install
 clang --version
 
-Setting -> type"run code" -> check below items
+STep 2: Setting -> type"run code" ->click "run code configuation" at left-side bar-> then check below items
 code runner: enable app insights
 code runner: run in terminal
 code runner: save file before run
 
+Step 4: 
 https://stackoverflow.com/questions/27924050/expected-at-end-of-declaration-vector-c
-Solution: add -std=c++14 
-"cpp": "cd $dir && g++ -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+search "executor map"
 Under "Code-runner: Executor Map" -> click on "Edit in setting.json"
 in "code-runner.executorMap"
+
+Solution: add -std=c++14            #c++20, c++17
+"cpp": "cd $dir && g++ -std=c++14 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
 
 
 #2 for Python3
