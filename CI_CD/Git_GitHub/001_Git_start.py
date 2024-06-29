@@ -1,3 +1,8 @@
+"""
+git setup 
+git help 
+
+"""
 ##############1 Git setup ##############
 git config 
 
@@ -32,4 +37,13 @@ note: can use "git config --list" to find out all keys
 #For unexpected value and you don't know why 
 #query Git as to the origin for that value, and it will tell you which configuration file had the final say in setting that value
 git config --show-origin rerere.autoUpdate
+
+##############2 git help ##############
+git help <verb>
+git <verb> help
+man git-<verb> 
+
+git help config 
+ git add -h 
+
 
