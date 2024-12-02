@@ -8,7 +8,7 @@ install Code Runner
 install C/C++ intellsense, debugging, code browser
 
 Step 3: installing the Clang compiler for macbook (default should be installed already)
-@terminal 
+@terminal     (for macbook pro, better use clang)
 xcode-select --install
 clang --version
 
