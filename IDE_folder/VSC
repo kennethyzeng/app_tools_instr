@@ -1,11 +1,15 @@
 Visual Studio Studio 
-
+https://www.youtube.com/watch?v=v2_Pth8MrKA
 #1 For CPP
 Step 1: Go to @extention 
 install Code Runner
   #for C, C++, Java,python, need to install "code runner"   
     -search "code runner" and click the one with .run and install
 install C/C++ intellsense, debugging, code browser
+
+"""""""""
+Finish above step, you click "run code" for c++ file and display output at "Output"  
+"""""""""
 
 Step 3: installing the Clang compiler for macbook (default should be installed already)
 @terminal     (for macbook pro, better use clang)
@@ -17,6 +21,12 @@ gcc:
 brew install gcc
 clang
 brew install llvm
+
+""""""""
+when finish above step, you can input similar command to compile 
+clang++ filename.cpp -o filename     #it'll generate compile file 
+./filename at terminal 
+""""""""
 
 STep 2: Setting -> type"run code" ->click "run code configuation" at left-side bar-> then check below items
 code runner: enable app insights
