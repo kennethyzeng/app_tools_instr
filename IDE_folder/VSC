@@ -35,7 +35,7 @@ code runner: save file before run
 
 Step 4: 
 https://stackoverflow.com/questions/27924050/expected-at-end-of-declaration-vector-c
-search "executor map"
+search "executor map"   (search code runner, then click setting)
 Under "Code-runner: Executor Map" -> click on "Edit in setting.json"
 in "code-runner.executorMap"
 
