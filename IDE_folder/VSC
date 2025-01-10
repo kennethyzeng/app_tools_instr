@@ -26,6 +26,10 @@ brew install llvm
 when finish above step, you can input similar command to compile 
 clang++ filename.cpp -o filename     #it'll generate compile file 
 ./filename at terminal 
+
+For C code 
+clang filename.c -o filename 
+./filename at termainal 
 """"""""
 
 STep 2: Setting -> type"run code" ->click "run code configuation" at left-side bar-> then check below items
